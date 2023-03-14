@@ -33,3 +33,5 @@
 *.env*
 
 application.yml
+
+node_modules
