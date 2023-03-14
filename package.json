@@ -1,8 +1,18 @@
 {
-  "name": "joberse",
+  "name": "yardsale",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Kervin Vasquez <kervinlvh@gmail.com>",
+  "author": "Daniel Jimenez<daniel@jimenez.tech>",
+  "contributors": [
+    {
+      "name": "Daniel Jimenez",
+      "email": "daniel@jimenez.tech"
+    },
+    {
+      "name": "Kervin Vasquez",
+      "email": "kervin@kervin.tech"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@prettier/plugin-ruby": "^3.2.2",
