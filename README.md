@@ -18,6 +18,12 @@ Things you may want to cover:
 
   - bundle install
   - yarn install
+  - Create `.env` file and add the following variables
+    - DATABASE_PASSWORD
+    - DATABASE_USER
+  - Create `application.yml` in `config/` and add the following variables
+    - `DATABASE_URL`: For example, `postgres://user:password@localhost:5432/database_name?`
+      - Note: The `?` at the end is important
 
 - Database creation
 
