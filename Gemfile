@@ -62,6 +62,17 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
+  gem "prettier_print" 
+
+  gem "syntax_tree" 
+
+  gem "syntax_tree-haml" 
+
+  gem "syntax_tree-rbs"
+
+  gem "solargraph"
 end
 
 group :test do
@@ -70,3 +81,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "figaro" # for environment variables in development located in config/application.yml
