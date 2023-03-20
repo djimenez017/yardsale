@@ -37,7 +37,7 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
@@ -50,7 +50,7 @@ gem "bootsnap", require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "debug", platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
@@ -64,11 +64,11 @@ group :development do
   # gem "spring"
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem "prettier_print" 
+  gem "prettier_print"
 
-  gem "syntax_tree" 
+  gem "syntax_tree"
 
-  gem "syntax_tree-haml" 
+  gem "syntax_tree-haml"
 
   gem "syntax_tree-rbs"
 
@@ -83,3 +83,4 @@ group :test do
 end
 
 gem "figaro" # for environment variables in development located in config/application.yml
+gem "acts-as-taggable-on", "~> 9.0"
