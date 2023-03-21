@@ -83,4 +83,7 @@ group :test do
 end
 
 gem "figaro" # for environment variables in development located in config/application.yml
+
 gem "acts-as-taggable-on", "~> 9.0"
+
+gem "bulma-rails", "~> 0.9.4"
