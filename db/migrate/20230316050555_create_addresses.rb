@@ -6,7 +6,7 @@ class CreateAddresses < ActiveRecord::Migration[7.0]
       t.text :zip_code, null: false
       t.text :state, null: false
       t.text :country, null: false
-      t.references :yard_sale, foreign_key: true, null: false
+      t.references :yard_sales, foreign_key: true, null: false
 
       t.timestamps
     end
