@@ -12,6 +12,10 @@ User.destroy_all
 #   Character.create(name: "Luke", movie: movies.first)
 
 # create some users
+# Clear out the database
+Address.destroy_all
+YardSale.destroy_all
+User.destroy_all
 
 user1 =
   User.create!(
