@@ -8,8 +8,7 @@
   </div>
 </div>
 
-<% @yardsales.each do |yardsale| %>
-
+<% if @yardsales.any? %> <% @yardsales.each do |yardsale| %>
 <div class="card column is-three-quarters-tablet mx-auto my-5">
   <a href="<%= yardsale_path(yardsale) %>" class="has-text-black">
     <!-- <%= link_to "Yardsale", yardsale_path(yardsale) %> -->
@@ -48,5 +47,9 @@
       </div>
     </div>
   </a>
+</div>
+<% end %> <% else %>
+<div class="column is-three-quarters-tablet mx-auto">
+  <p>No Yardsales available at this time 😧</p>
 </div>
 <% end %>
