@@ -58,7 +58,9 @@ user1.yard_sales.create!(
       zip_code: "12333",
       state: "CA",
       country: "USA"
-    )
+    ),
+  tag_list:
+    "plates, glasses, serving dishes, antique, Knick knacks, adding machine, camera"
 )
 user2.yard_sales.create!(
   title: "Hugh Yard And Estate Sale!!!",
@@ -74,7 +76,8 @@ user2.yard_sales.create!(
       zip_code: "12333",
       state: "CA",
       country: "USA"
-    )
+    ),
+  tag_list: "quilting, household items, fabric, books, camera"
 )
 user3.yard_sales.create!(
   title: "Quilting Supplies & Household Items",
@@ -90,5 +93,6 @@ user3.yard_sales.create!(
       zip_code: "12333",
       state: "CA",
       country: "USA"
-    )
+    ),
+  tag_list: "antique, Knick knacks, adding machine, camera"
 )

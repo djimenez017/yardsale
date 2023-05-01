@@ -25,9 +25,9 @@
   </div>
   <div>
     <div>
-      <span class="tag is-primary">Collectibles</span>
-      <span class="tag is-primary">Clothing</span>
-      <span class="tag is-primary">Electronics</span>
+      <% @yardsale.tag_list.each do |tag| %>
+      <span class="tag is-primary"><%= tag %></span>
+      <% end %>
     </div>
     <br />
     <%= @yardsale.description %> <br /><br />
